@@ -4,8 +4,8 @@ from csv import reader
 def get_db_connection():
     connection = None
     try:
-        connection = mysql.connector.connect(user='dylan',
-                                            password='boomss',
+        connection = mysql.connector.connect(user='<<your username>>',
+                                            password='<<yourpassword>>',
                                             host='localhost',
                                             port='3306',
                                             database='ticket_sales')
