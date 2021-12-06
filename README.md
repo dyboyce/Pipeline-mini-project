@@ -7,4 +7,5 @@ from terminal enter:
 mysql -u <username> -p < ticketminiproj.sql
   
 this will make the Database
-You may need to change the connection information in the python file to suit your own logins
+
+                                           You may need to change the connection information in the python file to suit your own logins
